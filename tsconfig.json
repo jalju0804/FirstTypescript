@@ -1,0 +1,12 @@
+{
+    "include": ["src"],
+    "compilerOptions": {
+        "outDir": "build",//build라는 outdir 생성
+        "target": "ES6",// 전환하는 js파일 버전
+        "lib": ["ES6"], // DOM = 브라우저
+        "strict": true, // ts문법을 엄격히
+        //"allowJs": true, // js파일 import 허용
+        "esModuleInterop": true,
+        "module": "CommonJS"
+    }
+}
